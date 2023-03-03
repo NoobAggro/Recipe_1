@@ -1,0 +1,49 @@
+.grid-container {
+  display: grid;
+  grid-gap: 5px;
+  background-color: #66727c;
+  padding: 5px;
+}
+
+.grid-container>div {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 5px 0;
+}
+
+.overskrift {
+  grid-column: 1 /span 12;
+  text-align: center;
+}
+
+.Ingredienser {
+  grid-column: 6 / span 10;
+  text-align: left;
+}
+
+.Fremgangsmåde {
+  grid-column: 1 / span 12;
+}
+
+.Image {
+  grid-column: 1 / span 6;
+  max-width: 100%;
+}
+
+.h2 {
+  text-align: center;
+}
+@media (min-width: 600px) {
+  .grid-container {
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 1em;
+      margin: 5em;
+      text-size-adjust: 100%;
+  }
+}
+
+@media (min-width: 900px) {
+  .grid-container {
+      grid-template-columns: repeat(2, 1fr);
+      margin: 0,5em;
+  }
+}

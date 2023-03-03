@@ -1,0 +1,48 @@
+[
+    {
+        "recipe": {
+            "name": "Carbonara",
+            "ingrediens": [
+                "100g bacon",
+                "1 tsk smør",
+                "1 løg, i tern",
+                "1 dl piskefløde",
+                "2 æg",
+                "50 g parmesan",
+                "sort peber, friskkværnet",
+                "250 g spaghetti, kogt al dente",
+                "50 g parmesan, friskrevet"
+            ],
+            "description": [
+                "Kog pastaen, til den er perfekt mør med bid.",
+                "Steg bacon på en pande ved middelhøj varme, til det er sprødt og stadig saftigt.",
+                "Kom bacon på en tallerken med fedtsugende papir.",
+                "Kom smør på panden med baconfedt og sauter løgene, til er bløde og klare.",
+                "Tilsæt bacon og fløde. Lad fløden bruse kort op.",
+                "Tag panden af varmen og rør æg i samt den kogte pasta, og bland retten godt sammen med den friskrevne ost.",
+                "Smag til med salt og friskkværnet peber."
+            ]
+        }
+    },
+    {
+        "recipe": {
+            "name": "Bo's Frikadeller", 
+            "ingrediens": ["løg", ""], 
+            "description": ["først", "dernæst"]
+        }
+    }, 
+    {
+        "recipe": {
+            "name": "Mormors frikadeller", 
+            "ingrediens":["løg", "1kg kartofler"],
+            "description":["Kog kartoflerne og afkøl dem", "Riv løg"]
+        }
+    },
+    {
+        "recipe": {
+            "name": "", 
+            "ingrediens":["", "", ""],
+            "description":["", ""]
+        }
+    }
+]
